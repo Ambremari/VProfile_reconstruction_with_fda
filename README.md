@@ -4,7 +4,7 @@ This repository provides the R implementation used in Couteyen Carpaye et al. (i
 
 The method is designed for substantial datasets of vertical profiles, that may be irregularly sampled, with some profiles being truncated, or partially missing.
 
-Parts of the implementation are adapted from the R package **fda** (Ramsay et al., 2024), in compliance with its GPL license.
+Parts of the implementation are adapted from the R package **fda** (Ramsay, 2024), in compliance with its GPL license.
 
 ---
 
@@ -73,7 +73,7 @@ The main steps of the reconstruction are:
 3. FPCA on functional data object
 4. Projection of incomplete profiles in the FPCA space with PACE
 5. Reconstruction of full vertical profiles
-6. Optional computation of confidence intervals
+6. Computation of confidence intervals
 
 ---
 
@@ -125,10 +125,7 @@ The repository provides helper functions to:
 
 This code is released under the **GNU General Public License v3.0 (GPL-3.0)**.
 
-Parts of this code are adapted from the R package **fda**:
-
-> Ramsay, J. O., Wickham, H., Graves, S., & Hooker, G.
-> *Functional Data Analysis*, GPL-licensed.
+Parts of this code are adapted from the R package **fda** (Ramsay, 2024).
 
 Any redistribution or modification must comply with the terms of the GPL.
 
@@ -149,7 +146,7 @@ TO-DO
 
 ## References
 
-Ramsay J.: fda: Functional Data Analysis. R package version 6.2.0, https://github.com/jamesramsay5/fda, 2024
+Ramsay J. _fda: Functional Data Analysis_. R package version 6.2.0, https://CRAN.R-project.org/package=fda, 2024.
 
 Yao, F., Müller, H. G., and Wang, J. L.: Functional data analysis for sparse longitudinal data, JASA, 100, 577–590, https://doi.org/10.1198/016214504000001745, 2005.
 
