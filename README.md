@@ -1,6 +1,6 @@
 # Reconstruction of Truncated Vertical Profiles using FDA 
 
-[![DOI](https://zenodo.org/badge/944441772.svg)](https://zenodo.org/badge/latestdoi/944441772)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18496412.svg)](https://doi.org/10.5281/zenodo.18496412)
 
 This repository provides the R implementation used in Couteyen Carpaye et al. (in prep) to reconstruct truncated vertical profiles (e.g. temperature, salinity...) with functional data analysis (FDA). This method is based on the principal components analysis through conditional expectation (PACE) described by Yao et al. (2005).
 
